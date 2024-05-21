@@ -22,6 +22,12 @@
 		804836882BF01F0B00E7471E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804836872BF01F0B00E7471E /* MapView.swift */; };
 		8048368A2BF01F3B00E7471E /* RentalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804836892BF01F3B00E7471E /* RentalController.swift */; };
 		8048368C2BF0219000E7471E /* RentalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8048368B2BF0219000E7471E /* RentalApp.swift */; };
+		8048368E2BF047D400E7471E /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8048368D2BF047D400E7471E /* ImageLoader.swift */; };
+		804836902BF0482A00E7471E /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8048368F2BF0482A00E7471E /* AsyncImageView.swift */; };
+		804836922BF050C500E7471E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804836912BF050C500E7471E /* Constants.swift */; };
+		804836942BF0565A00E7471E /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804836932BF0565A00E7471E /* DetailView.swift */; };
+		804836962BF0592900E7471E /* RentalDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804836952BF0592800E7471E /* RentalDetailViewModel.swift */; };
+		804836982BF0596500E7471E /* RentalDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804836972BF0596500E7471E /* RentalDetailsModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +66,12 @@
 		804836872BF01F0B00E7471E /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		804836892BF01F3B00E7471E /* RentalController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentalController.swift; sourceTree = "<group>"; };
 		8048368B2BF0219000E7471E /* RentalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentalApp.swift; sourceTree = "<group>"; };
+		8048368D2BF047D400E7471E /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		8048368F2BF0482A00E7471E /* AsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
+		804836912BF050C500E7471E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		804836932BF0565A00E7471E /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		804836952BF0592800E7471E /* RentalDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentalDetailViewModel.swift; sourceTree = "<group>"; };
+		804836972BF0596500E7471E /* RentalDetailsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentalDetailsModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +122,8 @@
 		803541F12BE8866D00113B8B /* apartments-map */ = {
 			isa = PBXGroup;
 			children = (
+				8048368F2BF0482A00E7471E /* AsyncImageView.swift */,
+				8048368D2BF047D400E7471E /* ImageLoader.swift */,
 				804836782BEEF59E00E7471E /* Components */,
 				803541F22BE8866D00113B8B /* apartments_mapApp.swift */,
 				803541F42BE8866D00113B8B /* ContentView.swift */,
@@ -122,6 +136,9 @@
 				804836872BF01F0B00E7471E /* MapView.swift */,
 				804836892BF01F3B00E7471E /* RentalController.swift */,
 				8048368B2BF0219000E7471E /* RentalApp.swift */,
+				804836912BF050C500E7471E /* Constants.swift */,
+				804836932BF0565A00E7471E /* DetailView.swift */,
+				804836952BF0592800E7471E /* RentalDetailViewModel.swift */,
 			);
 			path = "apartments-map";
 			sourceTree = "<group>";
@@ -163,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				8048367D2BEEFAC000E7471E /* RentalsModel.swift */,
+				804836972BF0596500E7471E /* RentalDetailsModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -297,16 +315,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				804836982BF0596500E7471E /* RentalDetailsModel.swift in Sources */,
 				804836862BF01C9200E7471E /* ListView.swift in Sources */,
 				803541FC2BE8867200113B8B /* Persistence.swift in Sources */,
 				803541F52BE8866D00113B8B /* ContentView.swift in Sources */,
+				804836942BF0565A00E7471E /* DetailView.swift in Sources */,
 				8048368A2BF01F3B00E7471E /* RentalController.swift in Sources */,
 				8048368C2BF0219000E7471E /* RentalApp.swift in Sources */,
+				8048368E2BF047D400E7471E /* ImageLoader.swift in Sources */,
 				8048367E2BEEFAC000E7471E /* RentalsModel.swift in Sources */,
+				804836922BF050C500E7471E /* Constants.swift in Sources */,
 				804836842BF01BC100E7471E /* RootView.swift in Sources */,
+				804836962BF0592900E7471E /* RentalDetailViewModel.swift in Sources */,
 				803541F32BE8866D00113B8B /* apartments_mapApp.swift in Sources */,
 				804836882BF01F0B00E7471E /* MapView.swift in Sources */,
 				803541FF2BE8867200113B8B /* apartments_map.xcdatamodeld in Sources */,
+				804836902BF0482A00E7471E /* AsyncImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

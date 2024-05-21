@@ -12,4 +12,5 @@ struct Rental: Identifiable, Codable {
     var name: String
     var location: String
     var price: Double
+    var imageUrl: String
 }

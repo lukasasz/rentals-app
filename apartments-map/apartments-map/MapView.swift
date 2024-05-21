@@ -16,5 +16,5 @@ struct MapView: View {
 }
 
 #Preview {
-    MapView(rentals: [Rental(id: 1, name: "test", location: "test", price: 0)])
+    MapView(rentals: [Rental(id: 1, name: "test", location: "test", price: 0, imageUrl: "")])
 }
